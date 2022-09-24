@@ -71,7 +71,7 @@ public class UserRegistractionUC7 {
 					boolean  resultPassword = Pattern.matches(PASSWORD, passWord);
 					System.out.println( resultPassword);
 					if(resultPassword == false) {
-						   System.out.println("Enter valid password atleast 8 charactor and one capital latter");
+						   System.out.println("Enter valid password atleast 8 character and one capital latter");
 					break; 
 					}
 			
