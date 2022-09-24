@@ -23,7 +23,7 @@ public class UserRegistraction {
 
 	 
 	  public static boolean validateFirstName(String firstName) {
-	    return firstName.matches("[A-Z]{1}[a-z]{3}");
+	    return firstName.matches("[A-Z]{1}[a-z]{3,}");
 	  }
 
 }

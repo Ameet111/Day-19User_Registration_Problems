@@ -36,7 +36,7 @@ public class UserRegistractionUC3 {
 					break;
 				}
 			case 3:	
-				final String EMAIL = ("([a-z]{3}(.+)[a-z]{3}@[bl](.+)[co](.+)");
+				final String EMAIL = ("[abc](.+)[a-z]{3}@[bl](.+)[co](.+)[a-z]{2}");
 				System.out.println("Enter email :");
 				String mail = scanner.nextLine();
 				boolean  resultEmail = Pattern.matches(EMAIL, mail);
